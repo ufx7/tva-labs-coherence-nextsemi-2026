@@ -44,7 +44,7 @@ Navigator: `04_validation/navigator.csv`, `03_sim/navigator.py`, `VC_story.md` �
 ## Gaps to close this morning (in priority order)
 1. Team slide and §10: roles, full-time commitment, photos. **Only the team can do this.**
 2. Fraunhofer LOI signed, with two numbers (drift °/min; hours lost per campaign) → S2, S5, §3.
-3. imec's answer on the ADEV curve beyond 1 s → W1.
+3. imec's answer on the ADEV curve beyond 1 s (verbatim question and verification protocol in `02_tech/plan_b_vc_builder_session_sa65_floor.md`) → W1; record the answer in that file.
 4. Repo URL in README, S10, submission form.
 5. Deck PDF exported and checked on a phone.
 6. `Questions Your Team Must Answer.docx` (team's own working doc in Kontext): check whether the organisers expect it filled; if so, copy the table above into it.

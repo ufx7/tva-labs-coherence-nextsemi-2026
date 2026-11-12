@@ -1,0 +1,8 @@
+reading,adev_1s,adev_10s,adev_100s,adev_1000s,coh_300GHz_10deg_s,image_300GHz_10s_dB,image_300GHz_60s_dB,xband_outage_s,anchor_resync_100ps_s
+base (floor 7e-16),9.9e-16,7.3e-16,7.5e-16,2.6e-15,31.622776601683793,-0.0,-0.01,100,7200
+P1 flat floor 1e-12 (literal; breaks the 1 s spec 1000x),1.0e-12,1.0e-12,1.0e-12,1.0e-12,None,-7.59,-14.35,3,60
+P2 SA65-shape: 1e-15@1s -> 1e-12@1000s, drift not estimable,1.4e-15,9.8e-15,9.8e-14,9.8e-13,6.812920690579611,-0.0,-1.09,100,300
+P2e same drift, estimated to 1% by firmware,1.0e-15,7.5e-16,1.2e-15,9.8e-15,31.622776601683793,-0.0,-0.01,100,3600
+P3 SA65-table: 1e-15@1s -> 1e-11@1000s, drift not estimable,9.9e-15,9.8e-14,9.8e-13,9.8e-12,2.1544346900318834,-0.09,-11.68,100,60
+P3e same drift, estimated to 1% by firmware,1.0e-15,1.2e-15,9.8e-15,9.8e-14,21.54434690031882,-0.0,-0.02,100,600
+HSO best quartz (reference),6.1e-14,6.0e-14,6.0e-14,6.0e-14,1.467799267622069,-0.2,-4.1,30,1800

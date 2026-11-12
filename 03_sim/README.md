@@ -44,6 +44,7 @@ cd sim && python3 -m venv .venv && .venv/bin/pip install numpy matplotlib
 - `C_oneway_doppler.csv`: the model gives 11.5 mm/s with an SA65, against 11 mm/s measured by JPL with Iris and an SA.45s. This is an **external validation** of the model.
 - `I_hybrid_gnss_ka.txt` (`hybrid_gnss.py`): GNSS sync (515 fs) plus the chip as a flywheel gives 0.6–0.9° at Ka-band; GNSS alone gives 6.6°, and with a space USO the best is 3.5°. Assumes white GNSS noise.
 - `J_floor_envelope.csv` (`floor_envelope.py`): noise-above-1-s envelope. Flicker floor is bounded at ≤1e-15 by the 1 s spec (flat in τ). Worst spec-consistent case (random-walk FM): 300 GHz coherence 32 → 22 s, 60 s image −0.02 dB, X-band outage 100 s, anchor resync 1 h. Drift not estimated or κ_T = 0.9 removes the scale/vision advantage (engineering, not physics). Floor 1e-14 (spec ×10): 7 s at 300 GHz, rest intact. Floor 1e-13: nothing survives.
+- `K_sa65_premise.csv` (`floor_sa65_premise.py`): the premise 'the floor follows SA65' taken literally, three readings. Random rise to 1e-12 at 1000 s: 300 GHz coherence 7 s, X-band outage 100 s, anchor 5 min (platform dies). Same rise as a stable drift estimated to 1 %: 32 s / 100 s / 1 h (story intact). Flat 1e-12 floor contradicts the 1 s spec and kills everything.
 - `E_sensitivity_chip.csv`: no thermal compensation cuts coherence 10x. No magnetic shielding in the lab cuts it 3x. A flicker floor of 1e-14 instead of 7e-16 cuts it about 5x.
 
 ## Phase PoCs (`poc_phases.py`)
