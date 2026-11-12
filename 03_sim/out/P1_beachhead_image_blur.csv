@@ -1,0 +1,19 @@
+carrier,aperture_time_s,clock,peak_loss_dB_median,ISLR_dB_median
+150 GHz,10,Rb lab ref,-18.65,22.9
+150 GHz,10,Rakon HSO (OCXO),-0.04,-9.4
+150 GHz,10,Challenge chip,-0.0,-9.7
+150 GHz,60,Rb lab ref,-18.47,25.6
+150 GHz,60,Rakon HSO (OCXO),-1.32,2.3
+150 GHz,60,Challenge chip,-0.0,-9.7
+150 GHz,300,Rb lab ref,-18.12,23.7
+150 GHz,300,Rakon HSO (OCXO),-6.37,9.6
+150 GHz,300,Challenge chip,-0.2,-1.4
+300 GHz,10,Rb lab ref,-18.3,25.9
+300 GHz,10,Rakon HSO (OCXO),-0.18,-8.5
+300 GHz,10,Challenge chip,-0.0,-9.7
+300 GHz,60,Rb lab ref,-18.19,25.2
+300 GHz,60,Rakon HSO (OCXO),-4.33,5.7
+300 GHz,60,Challenge chip,-0.01,-9.7
+300 GHz,300,Rb lab ref,-17.95,24.1
+300 GHz,300,Rakon HSO (OCXO),-9.63,13.3
+300 GHz,300,Challenge chip,-1.24,4.8

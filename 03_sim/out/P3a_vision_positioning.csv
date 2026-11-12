@@ -1,0 +1,11 @@
+ranging_noise,anchor_sync_error,median_error_m,p90_error_m
+100 MHz-class ranging (30 cm),50 ns (GNSS/PTP-class network),11.409,41.299
+100 MHz-class ranging (30 cm),5 ns,1.12,2.168
+100 MHz-class ranging (30 cm),1 ns,0.312,0.609
+100 MHz-class ranging (30 cm),100 ps,0.23,0.429
+100 MHz-class ranging (30 cm),10 ps (coherent layer),0.219,0.417
+1 GHz-class ranging (3 cm),50 ns (GNSS/PTP-class network),11.719,47.459
+1 GHz-class ranging (3 cm),5 ns,1.119,2.135
+1 GHz-class ranging (3 cm),1 ns,0.231,0.423
+1 GHz-class ranging (3 cm),100 ps,0.032,0.059
+1 GHz-class ranging (3 cm),10 ps (coherent layer),0.023,0.043

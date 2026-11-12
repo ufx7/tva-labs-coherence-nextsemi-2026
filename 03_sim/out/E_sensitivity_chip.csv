@@ -1,0 +1,26 @@
+case,env,carrier,tolerance,coherence_time,T_s
+baseline (floor 7e-16),lab,300 GHz,10 deg,31.6 s,31.622776601683793
+baseline (floor 7e-16),leo,300 GHz,5.73 deg,31.6 s,31.622776601683793
+baseline (floor 7e-16),leo,35.75 GHz,1 deg,46.4 s,46.41588833612777
+flicker floor 3e-15,lab,300 GHz,10 deg,21.5 s,21.54434690031882
+flicker floor 3e-15,leo,300 GHz,5.73 deg,14.7 s,14.67799267622069
+flicker floor 3e-15,leo,35.75 GHz,1 deg,21.5 s,21.54434690031882
+flicker floor 1e-14,lab,300 GHz,10 deg,6.81 s,6.812920690579611
+flicker floor 1e-14,leo,300 GHz,5.73 deg,3.16 s,3.1622776601683795
+flicker floor 1e-14,leo,35.75 GHz,1 deg,4.64 s,4.6415888336127775
+no temp. compensation (kappa_T=0),lab,300 GHz,10 deg,3.16 s,3.1622776601683795
+no temp. compensation (kappa_T=0),leo,300 GHz,5.73 deg,3.16 s,3.1622776601683795
+no temp. compensation (kappa_T=0),leo,35.75 GHz,1 deg,4.64 s,4.6415888336127775
+kappa_T=0.999,lab,300 GHz,10 deg,68.1 s,68.12920690579608
+kappa_T=0.999,leo,300 GHz,5.73 deg,46.4 s,46.41588833612777
+kappa_T=0.999,leo,35.75 GHz,1 deg,68.1 s,68.12920690579608
+aging not estimated (eps_D=1),lab,300 GHz,10 deg,14.7 s,14.67799267622069
+aging not estimated (eps_D=1),leo,300 GHz,5.73 deg,14.7 s,14.67799267622069
+aging not estimated (eps_D=1),leo,35.75 GHz,1 deg,14.7 s,14.67799267622069
+LEO: magnetic shielding 1e2,leo,300 GHz,5.73 deg,21.5 s,21.54434690031882
+LEO: magnetic shielding 1e2,leo,35.75 GHz,1 deg,31.6 s,31.622776601683793
+LEO: magnetic shielding 1e5,leo,300 GHz,5.73 deg,31.6 s,31.622776601683793
+LEO: magnetic shielding 1e5,leo,35.75 GHz,1 deg,46.4 s,46.41588833612777
+lab magnetic shielding factor 1,lab,300 GHz,10 deg,10 s,10.0
+lab magnetic shielding factor 100,lab,300 GHz,10 deg,31.6 s,31.622776601683793
+lab magnetic shielding factor 10000,lab,300 GHz,10 deg,31.6 s,31.622776601683793

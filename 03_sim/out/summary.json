@@ -1,0 +1,455 @@
+{
+ "A_pos_req_um_140GHz": 34.081036851692446,
+ "A_pos_req_um_300GHz": 15.904483864123142,
+ "A": [
+  [
+   "140 GHz",
+   "SA65 CSAC",
+   "ideal",
+   "<0.1 s",
+   null
+  ],
+  [
+   "140 GHz",
+   "SA65 CSAC",
+   "leo",
+   "<0.1 s",
+   null
+  ],
+  [
+   "140 GHz",
+   "Space USO",
+   "ideal",
+   "0.681 s",
+   0.6812920690579611
+  ],
+  [
+   "140 GHz",
+   "Space USO",
+   "leo",
+   "0.681 s",
+   0.6812920690579611
+  ],
+  [
+   "140 GHz",
+   "Challenge chip",
+   "ideal",
+   "100 s",
+   100.0
+  ],
+  [
+   "140 GHz",
+   "Challenge chip",
+   "leo",
+   "46.4 s",
+   46.41588833612777
+  ],
+  [
+   "300 GHz",
+   "SA65 CSAC",
+   "ideal",
+   "<0.1 s",
+   null
+  ],
+  [
+   "300 GHz",
+   "SA65 CSAC",
+   "leo",
+   "<0.1 s",
+   null
+  ],
+  [
+   "300 GHz",
+   "Space USO",
+   "ideal",
+   "0.316 s",
+   0.31622776601683794
+  ],
+  [
+   "300 GHz",
+   "Space USO",
+   "leo",
+   "0.316 s",
+   0.31622776601683794
+  ],
+  [
+   "300 GHz",
+   "Challenge chip",
+   "ideal",
+   "46.4 s",
+   46.41588833612777
+  ],
+  [
+   "300 GHz",
+   "Challenge chip",
+   "leo",
+   "31.6 s",
+   31.622776601683793
+  ]
+ ],
+ "B": [
+  [
+   "140 GHz",
+   "Rb lab ref",
+   "<0.1 s",
+   "3.12e+04",
+   null
+  ],
+  [
+   "140 GHz",
+   "Rakon HSO (OCXO)",
+   "2.15 s",
+   "2.23e+03",
+   2.1544346900318834
+  ],
+  [
+   "140 GHz",
+   "SA65 CSAC",
+   "<0.1 s",
+   "4.64e+05",
+   null
+  ],
+  [
+   "140 GHz",
+   "Challenge chip",
+   "46.4 s",
+   "583",
+   46.41588833612777
+  ],
+  [
+   "300 GHz",
+   "Rb lab ref",
+   "<0.1 s",
+   "6.68e+04",
+   null
+  ],
+  [
+   "300 GHz",
+   "Rakon HSO (OCXO)",
+   "1 s",
+   "4.77e+03",
+   1.0
+  ],
+  [
+   "300 GHz",
+   "SA65 CSAC",
+   "<0.1 s",
+   "9.94e+05",
+   null
+  ],
+  [
+   "300 GHz",
+   "Challenge chip",
+   "31.6 s",
+   "1.25e+03",
+   31.622776601683793
+  ]
+ ],
+ "B_positioner_deg_300GHz_10um": 3.6024922281400427,
+ "C": [
+  [
+   "SA65 CSAC",
+   "3.85e-11",
+   "11.5"
+  ],
+  [
+   "Space USO",
+   "1.02e-13",
+   "0.0306"
+  ],
+  [
+   "Rakon HSO (OCXO)",
+   "6.21e-14",
+   "0.0186"
+  ],
+  [
+   "Challenge chip",
+   "1.29e-14",
+   "0.00387"
+  ]
+ ],
+ "C_req_adev_for_two_way_parity": 3.3356409519815206e-13,
+ "D": [
+  [
+   "C (Harmony)",
+   "Space USO",
+   "3.16 s",
+   "1",
+   3.1622776601683795
+  ],
+  [
+   "C (Harmony)",
+   "Challenge chip",
+   "100 s",
+   "1",
+   100.0
+  ],
+  [
+   "X (TanDEM-X)",
+   "Space USO",
+   "2.15 s",
+   "1.8",
+   2.1544346900318834
+  ],
+  [
+   "X (TanDEM-X)",
+   "Challenge chip",
+   "68.1 s",
+   "1.8",
+   68.12920690579608
+  ],
+  [
+   "Ka",
+   "Space USO",
+   "0.464 s",
+   "6.6",
+   0.46415888336127786
+  ],
+  [
+   "Ka",
+   "Challenge chip",
+   "46.4 s",
+   "6.6",
+   46.41588833612777
+  ]
+ ],
+ "E": [
+  [
+   "baseline (floor 7e-16)",
+   "lab",
+   "300 GHz",
+   "10 deg",
+   "31.6 s",
+   31.622776601683793
+  ],
+  [
+   "baseline (floor 7e-16)",
+   "leo",
+   "300 GHz",
+   "5.73 deg",
+   "31.6 s",
+   31.622776601683793
+  ],
+  [
+   "baseline (floor 7e-16)",
+   "leo",
+   "35.75 GHz",
+   "1 deg",
+   "46.4 s",
+   46.41588833612777
+  ],
+  [
+   "flicker floor 3e-15",
+   "lab",
+   "300 GHz",
+   "10 deg",
+   "21.5 s",
+   21.54434690031882
+  ],
+  [
+   "flicker floor 3e-15",
+   "leo",
+   "300 GHz",
+   "5.73 deg",
+   "14.7 s",
+   14.67799267622069
+  ],
+  [
+   "flicker floor 3e-15",
+   "leo",
+   "35.75 GHz",
+   "1 deg",
+   "21.5 s",
+   21.54434690031882
+  ],
+  [
+   "flicker floor 1e-14",
+   "lab",
+   "300 GHz",
+   "10 deg",
+   "6.81 s",
+   6.812920690579611
+  ],
+  [
+   "flicker floor 1e-14",
+   "leo",
+   "300 GHz",
+   "5.73 deg",
+   "3.16 s",
+   3.1622776601683795
+  ],
+  [
+   "flicker floor 1e-14",
+   "leo",
+   "35.75 GHz",
+   "1 deg",
+   "4.64 s",
+   4.6415888336127775
+  ],
+  [
+   "no temp. compensation (kappa_T=0)",
+   "lab",
+   "300 GHz",
+   "10 deg",
+   "3.16 s",
+   3.1622776601683795
+  ],
+  [
+   "no temp. compensation (kappa_T=0)",
+   "leo",
+   "300 GHz",
+   "5.73 deg",
+   "3.16 s",
+   3.1622776601683795
+  ],
+  [
+   "no temp. compensation (kappa_T=0)",
+   "leo",
+   "35.75 GHz",
+   "1 deg",
+   "4.64 s",
+   4.6415888336127775
+  ],
+  [
+   "kappa_T=0.999",
+   "lab",
+   "300 GHz",
+   "10 deg",
+   "68.1 s",
+   68.12920690579608
+  ],
+  [
+   "kappa_T=0.999",
+   "leo",
+   "300 GHz",
+   "5.73 deg",
+   "46.4 s",
+   46.41588833612777
+  ],
+  [
+   "kappa_T=0.999",
+   "leo",
+   "35.75 GHz",
+   "1 deg",
+   "68.1 s",
+   68.12920690579608
+  ],
+  [
+   "aging not estimated (eps_D=1)",
+   "lab",
+   "300 GHz",
+   "10 deg",
+   "14.7 s",
+   14.67799267622069
+  ],
+  [
+   "aging not estimated (eps_D=1)",
+   "leo",
+   "300 GHz",
+   "5.73 deg",
+   "14.7 s",
+   14.67799267622069
+  ],
+  [
+   "aging not estimated (eps_D=1)",
+   "leo",
+   "35.75 GHz",
+   "1 deg",
+   "14.7 s",
+   14.67799267622069
+  ],
+  [
+   "LEO: magnetic shielding 1e2",
+   "leo",
+   "300 GHz",
+   "5.73 deg",
+   "21.5 s",
+   21.54434690031882
+  ],
+  [
+   "LEO: magnetic shielding 1e2",
+   "leo",
+   "35.75 GHz",
+   "1 deg",
+   "31.6 s",
+   31.622776601683793
+  ],
+  [
+   "LEO: magnetic shielding 1e5",
+   "leo",
+   "300 GHz",
+   "5.73 deg",
+   "31.6 s",
+   31.622776601683793
+  ],
+  [
+   "LEO: magnetic shielding 1e5",
+   "leo",
+   "35.75 GHz",
+   "1 deg",
+   "46.4 s",
+   46.41588833612777
+  ],
+  [
+   "lab magnetic shielding factor 1",
+   "lab",
+   "300 GHz",
+   "10 deg",
+   "10 s",
+   10.0
+  ],
+  [
+   "lab magnetic shielding factor 100",
+   "lab",
+   "300 GHz",
+   "10 deg",
+   "31.6 s",
+   31.622776601683793
+  ],
+  [
+   "lab magnetic shielding factor 10000",
+   "lab",
+   "300 GHz",
+   "10 deg",
+   "31.6 s",
+   31.622776601683793
+  ]
+ ],
+ "H": [
+  [
+   "A sub-THz ISL coherent, 300 GHz, sync every 10 s, 0.1 rad",
+   "7.3e-15",
+   "YES"
+  ],
+  [
+   "A sub-THz ISL coherent, 140 GHz, sync every 10 s, 0.1 rad",
+   "1.6e-14",
+   "YES"
+  ],
+  [
+   "B sub-THz sounding 300 GHz, re-reference every 60 s, 10 deg",
+   "2.1e-15",
+   "YES"
+  ],
+  [
+   "B sub-THz sounding 140 GHz, re-reference every 60 s, 10 deg",
+   "4.5e-15",
+   "YES"
+  ],
+  [
+   "D Ka-band distributed InSAR, 60 s data take, 1 deg",
+   "1.8e-15",
+   "YES"
+  ],
+  [
+   "D C-band (Harmony-class) InSAR, 120 s data take, 1 deg",
+   "5.7e-15",
+   "YES"
+  ],
+  [
+   "C one-way Doppler parity with two-way (0.1 mm/s @60 s)",
+   "3.3e-13",
+   "no (USO-class suffices)"
+  ]
+ ]
+}

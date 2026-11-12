@@ -1,0 +1,89 @@
+{
+ "R1_peak_loss_dB_300GHz_P90_P50_P10": [
+  [
+   "Rakon HSO (OCXO)",
+   60,
+   -2.37,
+   -4.07,
+   -5.67
+  ],
+  [
+   "Rakon HSO (OCXO)",
+   300,
+   -7.92,
+   -9.4,
+   -10.98
+  ],
+  [
+   "Challenge chip",
+   60,
+   -0.0,
+   -0.01,
+   -0.02
+  ],
+  [
+   "Challenge chip",
+   300,
+   -0.05,
+   -0.74,
+   -4.25
+  ]
+ ],
+ "R2_phase_budget_deg_300GHz_60s": {
+  "clock: challenge chip, 2 independent refs, 60 s [SIM]": 19.63,
+  "clock: Rakon HSO, 60 s [SIM]": 486.65,
+  "positioner / antenna position 10 um rms (one-way) [ASM]": 3.6,
+  "positioner 50 um rms [ASM]": 18.01,
+  "freq. extender + cable thermal drift, 1 deg/K x 0.1 K in 60 s [ASM]": 0.1,
+  "freq. extender + cable thermal drift, 10 deg/K x 0.5 K in 60 s [ASM]": 5.0,
+  "indoor air path 10 m, 0.1 K / 1 hPa change (n-1 ~ 3e-7 per unit) [ASM]": 1.08
+ },
+ "R3_revenue_EURm": {
+  "base: scale + vision": [
+   0.1,
+   0.4,
+   1.6,
+   4.9,
+   12.3,
+   27.3,
+   55.1,
+   100.5,
+   163.0
+  ],
+  "scale only (no vision)": [
+   0.1,
+   0.4,
+   1.6,
+   4.9,
+   12.0,
+   24.6,
+   41.2,
+   58.2,
+   75.7
+  ],
+  "slow scale, no vision": [
+   0.1,
+   0.4,
+   1.2,
+   2.5,
+   5.3,
+   9.3,
+   14.9,
+   20.6,
+   26.5
+  ]
+ },
+ "R3_years": [
+  2027,
+  2028,
+  2029,
+  2030,
+  2031,
+  2032,
+  2033,
+  2034,
+  2035
+ ],
+ "R3_note": "Valuation at 2033 revenue x 5-10x (hardware/infra multiple; SiTime 22x is peak-cycle): base: scale + vision: EUR 275-551M; scale only (no vision): EUR 206-412M; slow scale, no vision: EUR 75-149M",
+ "R3_node_hw_2030_share_of_EU_cUAS_2030": "0.09 %"
+}

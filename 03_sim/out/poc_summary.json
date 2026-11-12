@@ -1,0 +1,304 @@
+{
+ "P1": [
+  [
+   "150 GHz",
+   10,
+   "Rb lab ref",
+   -18.65,
+   22.9
+  ],
+  [
+   "150 GHz",
+   10,
+   "Rakon HSO (OCXO)",
+   -0.04,
+   -9.4
+  ],
+  [
+   "150 GHz",
+   10,
+   "Challenge chip",
+   -0.0,
+   -9.7
+  ],
+  [
+   "150 GHz",
+   60,
+   "Rb lab ref",
+   -18.47,
+   25.6
+  ],
+  [
+   "150 GHz",
+   60,
+   "Rakon HSO (OCXO)",
+   -1.32,
+   2.3
+  ],
+  [
+   "150 GHz",
+   60,
+   "Challenge chip",
+   -0.0,
+   -9.7
+  ],
+  [
+   "150 GHz",
+   300,
+   "Rb lab ref",
+   -18.12,
+   23.7
+  ],
+  [
+   "150 GHz",
+   300,
+   "Rakon HSO (OCXO)",
+   -6.37,
+   9.6
+  ],
+  [
+   "150 GHz",
+   300,
+   "Challenge chip",
+   -0.2,
+   -1.4
+  ],
+  [
+   "300 GHz",
+   10,
+   "Rb lab ref",
+   -18.3,
+   25.9
+  ],
+  [
+   "300 GHz",
+   10,
+   "Rakon HSO (OCXO)",
+   -0.18,
+   -8.5
+  ],
+  [
+   "300 GHz",
+   10,
+   "Challenge chip",
+   -0.0,
+   -9.7
+  ],
+  [
+   "300 GHz",
+   60,
+   "Rb lab ref",
+   -18.19,
+   25.2
+  ],
+  [
+   "300 GHz",
+   60,
+   "Rakon HSO (OCXO)",
+   -4.33,
+   5.7
+  ],
+  [
+   "300 GHz",
+   60,
+   "Challenge chip",
+   -0.01,
+   -9.7
+  ],
+  [
+   "300 GHz",
+   300,
+   "Rb lab ref",
+   -17.95,
+   24.1
+  ],
+  [
+   "300 GHz",
+   300,
+   "Rakon HSO (OCXO)",
+   -9.63,
+   13.3
+  ],
+  [
+   "300 GHz",
+   300,
+   "Challenge chip",
+   -1.24,
+   4.8
+  ]
+ ],
+ "P2_outage": [
+  [
+   "X-band 10 GHz",
+   "Rb lab ref",
+   16,
+   "<0.1"
+  ],
+  [
+   "X-band 10 GHz",
+   "Rakon HSO (OCXO)",
+   16,
+   30
+  ],
+  [
+   "X-band 10 GHz",
+   "Challenge chip",
+   16,
+   100
+  ],
+  [
+   "W-band 94 GHz",
+   "Rb lab ref",
+   16,
+   "<0.1"
+  ],
+  [
+   "W-band 94 GHz",
+   "Rakon HSO (OCXO)",
+   16,
+   3
+  ],
+  [
+   "W-band 94 GHz",
+   "Challenge chip",
+   16,
+   30
+  ]
+ ],
+ "P2_econ_examples": [
+  [
+   0.5,
+   60,
+   30000.0,
+   15000,
+   2.0
+  ],
+  [
+   1,
+   60,
+   60000,
+   15000,
+   4.0
+  ],
+  [
+   3,
+   60,
+   180000,
+   15000,
+   12.0
+  ],
+  [
+   5,
+   60,
+   300000,
+   15000,
+   20.0
+  ]
+ ],
+ "P3a": [
+  [
+   "100 MHz-class ranging (30 cm)",
+   "50 ns (GNSS/PTP-class network)",
+   11.409,
+   41.299
+  ],
+  [
+   "100 MHz-class ranging (30 cm)",
+   "5 ns",
+   1.12,
+   2.168
+  ],
+  [
+   "100 MHz-class ranging (30 cm)",
+   "1 ns",
+   0.312,
+   0.609
+  ],
+  [
+   "100 MHz-class ranging (30 cm)",
+   "100 ps",
+   0.23,
+   0.429
+  ],
+  [
+   "100 MHz-class ranging (30 cm)",
+   "10 ps (coherent layer)",
+   0.219,
+   0.417
+  ],
+  [
+   "1 GHz-class ranging (3 cm)",
+   "50 ns (GNSS/PTP-class network)",
+   11.719,
+   47.459
+  ],
+  [
+   "1 GHz-class ranging (3 cm)",
+   "5 ns",
+   1.119,
+   2.135
+  ],
+  [
+   "1 GHz-class ranging (3 cm)",
+   "1 ns",
+   0.231,
+   0.423
+  ],
+  [
+   "1 GHz-class ranging (3 cm)",
+   "100 ps",
+   0.032,
+   0.059
+  ],
+  [
+   "1 GHz-class ranging (3 cm)",
+   "10 ps (coherent layer)",
+   0.023,
+   0.043
+  ]
+ ],
+ "P3b": [
+  [
+   "TCXO",
+   "120",
+   "4.42e+03",
+   "2.73e+05"
+  ],
+  [
+   "OCXO (std)",
+   "0.781",
+   "43.6",
+   "2.78e+03"
+  ],
+  [
+   "Rakon HSO (OCXO)",
+   "0.0446",
+   "2.61",
+   "175"
+  ],
+  [
+   "Challenge chip",
+   "0.00084",
+   "0.115",
+   "35.1"
+  ]
+ ],
+ "P3c": [
+  [
+   "50 ns",
+   63.5956
+  ],
+  [
+   "1 ns",
+   1.2719
+  ],
+  [
+   "100 ps",
+   0.1272
+  ],
+  [
+   "10 ps",
+   0.0127
+  ]
+ ]
+}

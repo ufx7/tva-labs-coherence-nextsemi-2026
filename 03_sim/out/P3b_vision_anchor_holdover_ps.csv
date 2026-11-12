@@ -1,0 +1,5 @@
+anchor_oscillator,rms_ps_after_1s,rms_ps_after_60s,rms_ps_after_1h
+TCXO,120,4.42e+03,2.73e+05
+OCXO (std),0.781,43.6,2.78e+03
+Rakon HSO (OCXO),0.0446,2.61,175
+Challenge chip,0.00084,0.115,35.1

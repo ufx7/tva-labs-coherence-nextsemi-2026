@@ -1,0 +1,9 @@
+carrier,clock,coherence_time_10deg,phase_rms_deg_after_600s,T_s
+140 GHz,Rb lab ref,<0.1 s,3.12e+04,None
+140 GHz,Rakon HSO (OCXO),2.15 s,2.23e+03,2.1544346900318834
+140 GHz,SA65 CSAC,<0.1 s,4.64e+05,None
+140 GHz,Challenge chip,46.4 s,583,46.41588833612777
+300 GHz,Rb lab ref,<0.1 s,6.68e+04,None
+300 GHz,Rakon HSO (OCXO),1 s,4.77e+03,1.0
+300 GHz,SA65 CSAC,<0.1 s,9.94e+05,None
+300 GHz,Challenge chip,31.6 s,1.25e+03,31.622776601683793

@@ -1,0 +1,41 @@
+"""Market Opportunity Navigator scoring (challenge section 5). Scores 1 (bad) .. 5 (good).
+Each score carries its evidence tag; change a score here and the ranking recomputes.
+Run: .venv/bin/python navigator.py  -> out/navigator.csv
+"""
+CRIT = ["urgency", "value", "accessibility", "competition(5=weak)", "sales_cycle(5=short)",
+        "qualification(5=light)", "tech_fit(spec mission-critical)"]
+
+OPP = {
+    "0 BASELINE: sub-THz inter-satellite coherent links/apertures": (
+        [1, 4, 1, 4, 1, 1, 3],
+        "First in-space sub-THz demos only planned (TeraLink preprint 2026, THIS-SAT launch 2027-12) -> no buyer budget yet; "
+        "sim H: needs 7.3e-15 (chip only) BUT sim A: 16 um line-of-sight knowledge needed at 300 GHz vs ~mm-class orbit determination [ASM] -> non-clock term dominates unless self-calibrated; space qualification."),
+    "1 Untethered phase-coherent sub-THz measurement (6G channel sounding VAA, bistatic ISAC testbeds)": (
+        [3, 3, 5, 3, 4, 5, 5],
+        "Pain: NYU resyncs Rb clocks via PTP every 1 s + drift algorithm; AAU builds phase-compensated radio-over-fibre (300 m) because fibre phase drifts; IEEE SPM: clock asynchronism = key obstacle in bistatic ISAC. "
+        "WTP: Rakon - lab/science buyers 'don't care much about price', ~15k HSO; Microchip pointed us to T&M (R&S). sim H: 300 GHz/60 s needs 2.1e-15 -> only the chip; best quartz holds about 1 s. No space qualification."),
+    "2 Distributed / companion SAR interferometry (Ka-band formations; Harmony-class C-band)": (
+        [3, 5, 2, 2, 1, 1, 4],
+        "Harmony EUR 280M (OHB prime, TAS radar, launch 2029) -> design frozen; GNSS sync achieves 515 fs = 1 deg @C-band (competing architecture good enough at C) but 6.6 deg @Ka; "
+        "TU Delft: residual sync phase blocks sea-surface-height product; Umbra 32-sat licence, DARPA DRIFT $4.5M+$6M multistatic. sim H: Ka 60 s/1 deg needs 1.8e-15."),
+    "3 One-way radiometric tracking for lunar/deep-space smallsats (Iris radio)": (
+        [3, 3, 3, 2, 2, 2, 1],
+        "JPL Iris + SA.45s CSAC: 11 mm/s @60 s vs 0.1 mm/s two-way (110x gap) - sim reproduces 11.5 mm/s; BUT parity needs only 3.3e-13 @60 s -> USO/OCXO class suffices; chip value = SWaP only (fails 'only possible because of 1e-15')."),
+    "4 Team's current thesis: drone TDOA / anti-spoofing (TVA deck)": (
+        [5, 4, 3, 2, 3, 3, 2],
+        "Big, urgent market (TVA deck: EUR 4.16B Europe 2030); tdoa_document_critique: gain 1.3-16x once realistic link noise (0.1-2 ns) is included, ~10-35x only with thermal comp. at 1 min-1 h; repo SAR/EW checks need 1e-12..1e-13."),
+}
+
+if __name__ == "__main__":
+    rows = []
+    for name, (s, ev) in OPP.items():
+        tot = sum(s)
+        gtm = s[2] + s[4] + s[5]          # accessibility + sales cycle + qualification
+        rows.append((tot, gtm, s[6], name, s, ev))
+    rows.sort(key=lambda r: -r[0])
+    with open("out/navigator.csv", "w") as f:
+        f.write("opportunity," + ",".join(CRIT) + ",total,gtm_subscore,evidence\n")
+        for tot, gtm, fit, name, s, ev in rows:
+            f.write(f"\"{name}\"," + ",".join(map(str, s)) + f",{tot},{gtm},\"{ev}\"\n")
+    for tot, gtm, fit, name, s, ev in rows:
+        print(f"total {tot:2d} | GTM {gtm:2d}/15 | fit {fit} | {name}")

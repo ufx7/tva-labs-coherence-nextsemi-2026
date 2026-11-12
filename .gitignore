@@ -1,0 +1,8 @@
+# never publish: raw interview notes with personal names, transcripts, third-party PDFs
+private/
+# python
+.venv/
+__pycache__/
+*.pyc
+# os
+.DS_Store

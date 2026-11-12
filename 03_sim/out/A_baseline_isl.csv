@@ -1,0 +1,13 @@
+carrier,clock,env,coherence_time,T_s
+140 GHz,SA65 CSAC,ideal,<0.1 s,None
+140 GHz,SA65 CSAC,leo,<0.1 s,None
+140 GHz,Space USO,ideal,0.681 s,0.6812920690579611
+140 GHz,Space USO,leo,0.681 s,0.6812920690579611
+140 GHz,Challenge chip,ideal,100 s,100.0
+140 GHz,Challenge chip,leo,46.4 s,46.41588833612777
+300 GHz,SA65 CSAC,ideal,<0.1 s,None
+300 GHz,SA65 CSAC,leo,<0.1 s,None
+300 GHz,Space USO,ideal,0.316 s,0.31622776601683794
+300 GHz,Space USO,leo,0.316 s,0.31622776601683794
+300 GHz,Challenge chip,ideal,46.4 s,46.41588833612777
+300 GHz,Challenge chip,leo,31.6 s,31.622776601683793

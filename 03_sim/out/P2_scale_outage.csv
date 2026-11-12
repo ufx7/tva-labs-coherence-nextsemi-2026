@@ -1,0 +1,7 @@
+band,clock,N_nodes,max_sync_outage_s_with_gain>=0.9
+X-band 10 GHz,Rb lab ref,16,<0.1
+X-band 10 GHz,Rakon HSO (OCXO),16,30
+X-band 10 GHz,Challenge chip,16,100
+W-band 94 GHz,Rb lab ref,16,<0.1
+W-band 94 GHz,Rakon HSO (OCXO),16,3
+W-band 94 GHz,Challenge chip,16,30

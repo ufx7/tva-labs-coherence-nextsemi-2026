@@ -1,0 +1,4 @@
+Ka-band 35.75 GHz, rms sync phase error [deg] vs smoothing window W
+clock            W= 0.5s  W=  10s  W=  30s  W=  60s  W= 120s  W= 300s
+Space USO           6.62     3.52     9.00    17.67    34.98    90.45
+Challenge chip      6.65     1.48     0.88     0.65     0.62     2.15

@@ -1,0 +1,7 @@
+band,clock,free_run_time_within_1deg,gnss_sync_deg,T_s
+C (Harmony),Space USO,3.16 s,1,3.1622776601683795
+C (Harmony),Challenge chip,100 s,1,100.0
+X (TanDEM-X),Space USO,2.15 s,1.8,2.1544346900318834
+X (TanDEM-X),Challenge chip,68.1 s,1.8,68.12920690579608
+Ka,Space USO,0.464 s,6.6,0.46415888336127786
+Ka,Challenge chip,46.4 s,6.6,46.41588833612777

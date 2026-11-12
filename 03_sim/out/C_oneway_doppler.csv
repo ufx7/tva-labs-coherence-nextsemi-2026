@@ -1,0 +1,5 @@
+spacecraft_clock,rel_adev_60s,range_rate_err_mm_s
+SA65 CSAC,3.85e-11,11.5
+Space USO,1.02e-13,0.0306
+Rakon HSO (OCXO),6.21e-14,0.0186
+Challenge chip,1.29e-14,0.00387
