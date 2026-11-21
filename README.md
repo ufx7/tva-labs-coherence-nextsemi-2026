@@ -1,6 +1,6 @@
 # TVA Labs: coherence where sync is denied or impossible
 NextSEMI Hackathon (SEMICON Europa × TUM Venture Labs), Munich, 10–12 Nov 2026 · imec ventures challenge "Build the next timing unicorn" · Team: Emmanuele, Sascha, Sagar, Claus.
-Repository: [URL to be added by Emmanuele] · Deck: `01_pitch/TVA_Labs_deck.pdf`
+Repository: https://github.com/ufx7/tva-labs-coherence-nextsemi-2026 · Deck script: `01_pitch/deck_script.md` (stage deck S1–S10 + workspace extras; pitch text in `01_pitch/pitch_script_sascha_claus.md`)
 
 ## What we built
 Starting from a chip-scale atomic clock with an assumed short-term stability of 1e-15 at 1 s (all other specs as the Microchip SA65), we asked where that one number is mission-critical, built an auditable simulation that converts clock noise into application metrics (radar image blur, coherent gain under sync outage, positioning error, relay detection, Doppler error), interviewed ten organisations across seven stakeholder types, and designed a venture in three phases:
