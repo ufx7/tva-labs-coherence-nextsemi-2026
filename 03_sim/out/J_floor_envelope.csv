@@ -1,6 +1,6 @@
 variant,adev_1s,adev_10s,adev_100s,adev_1000s,coh_time_300GHz_10deg_s,coh_time_150GHz_10deg_s,image_loss_300GHz_60s_dB,image_loss_150GHz_60s_dB,xband_16node_outage_s,indoor_anchor_resync_100ps_s
-V0 current (white+flicker 7e-16, drift est., kappa_T 0.99),9.9e-16,7.3e-16,7.0e-16,7.0e-16,31.622776601683793,46.41588833612777,-0.01,-0.0,100,7200
-V1 + random-walk FM worst case (ADEV 1e-15 @1s, ~sqrt(tau) rise),1.0e-15,1.9e-15,5.8e-15,1.8e-14,21.54434690031882,31.622776601683793,-0.02,-0.01,100,3600
+"V0 current (white+flicker 7e-16, drift est., kappa_T 0.99)",9.9e-16,7.3e-16,7.0e-16,7.0e-16,31.622776601683793,46.41588833612777,-0.01,-0.0,100,7200
+"V1 + random-walk FM worst case (ADEV 1e-15 @1s, ~sqrt(tau) rise)",1.0e-15,1.9e-15,5.8e-15,1.8e-14,21.54434690031882,31.622776601683793,-0.02,-0.01,100,3600
 V2 = V1 + SA65 drift NOT estimated,1.0e-15,1.9e-15,5.8e-15,1.8e-14,14.67799267622069,21.54434690031882,-0.07,-0.03,100,600
 V3 = V2 + poor thermal compensation (kappa_T 0.9),1.0e-15,1.9e-15,5.8e-15,1.8e-14,10.0,14.67799267622069,-0.15,-0.05,30,300
 V4 sceptic: flicker floor 1e-14 (violates spec 10x),1.0e-14,1.0e-14,1.0e-14,1.0e-14,6.812920690579611,14.67799267622069,-0.16,-0.06,100,3600

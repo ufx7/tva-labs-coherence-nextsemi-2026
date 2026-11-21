@@ -2,7 +2,7 @@
 Outputs go to out/ (CSV tables, PNG plots, summary.json). Tags as in clock_noise.py.
 """
 from __future__ import annotations
-import json, math, copy
+import csv, json, math, copy
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
@@ -22,10 +22,11 @@ def fmt_t(T):
 
 
 def table(path, header, rows):
-    with open(path, "w") as f:
-        f.write(",".join(header) + "\n")
+    with open(path, "w", newline="") as f:      # csv module: labels may contain commas
+        w = csv.writer(f, lineterminator="\n")
+        w.writerow(header)
         for r in rows:
-            f.write(",".join(str(v) for v in r) + "\n")
+            w.writerow([str(v) for v in r])
 
 
 # ------------------------------------------------------------- 0. validation

@@ -4,7 +4,7 @@ Unbounded by the spec: random-walk FM (~sqrt(tau)), linear drift (~tau; SA65 agi
 environmental sensitivity (SA65 temperature 5e-12/K, magnetic 9e-11/G frozen). Variants V1-V3 are the worst
 spec-consistent cases; V4-V5 violate the 1 s spec (a sceptic who treats 1e-15 as a best-case lab number).
 """
-import math, copy
+import csv, math, copy
 import numpy as np
 from clock_noise import Clock, CLOCKS, gen_y, oadev, phase_from_y
 from coherence import ENVS, Env, holdover_rms, coherence_time, rel_y
@@ -102,4 +102,4 @@ for name, (c, ek) in V.items():
 with open("out/J_floor_envelope.csv", "w") as fh:
     fh.write("variant,adev_1s,adev_10s,adev_100s,adev_1000s,coh_time_300GHz_10deg_s,coh_time_150GHz_10deg_s,image_loss_300GHz_60s_dB,image_loss_150GHz_60s_dB,xband_16node_outage_s,indoor_anchor_resync_100ps_s\n")
     for r in rows:
-        fh.write(",".join(str(v) for v in r) + "\n")
+        csv.writer(fh, lineterminator="\n").writerow([str(v) for v in r])   # variant names contain commas
